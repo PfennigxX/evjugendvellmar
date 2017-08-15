@@ -5,6 +5,9 @@ background-color:#00C9FF
 h1{
 	color:#A6FF00;
 }
+h2{	
+font-family:Bungee Inline;
+}
 p{
 	color:white;
 	text-decoration: none;
@@ -14,6 +17,9 @@ a {
 }
 a:hover {
 text-decoration:underline; color:white;
+}
+#one{
+	font-size:20px;
 }
 .mid{
 	
@@ -106,3 +112,30 @@ height:50px;
 	border-right-color: lightblue;
 	border-bottom-color:lightblue;
 }
+/*Startseite*/
+.text{
+	position: absolute;
+margin:20px;
+top:150px;
+
+	
+}
+
+.VellmarLogo{
+float:right;
+margin:10px;
+width:150;
+height:200px;
+top:20px;
+}
+/*Angebote*/
+.angebotnavi {
+cursor:default;
+position:absolute;
+background-color:black;
+width:50%;
+height:40px;
+top:140px;
+left:25%;
+}
+
