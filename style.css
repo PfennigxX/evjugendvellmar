@@ -1,0 +1,108 @@
+body {
+margin:0;
+background-color:#00C9FF
+}
+h1{
+	color:#A6FF00;
+}
+p{
+	color:white;
+	text-decoration: none;
+}
+a {
+	color:white;
+}
+a:hover {
+text-decoration:underline; color:white;
+}
+.mid{
+	
+cursor:default;
+text-align:center;
+font-family: Rock Salt;
+
+}
+.logo{
+	cursor:pointer;
+position: absolute;
+width:85px;
+height:85px;
+top:7.5px;	
+left:3%;
+}
+.ueberschrieft {
+cursor:default;
+background-color:#008DFF;
+width:100%;
+height:100px;
+}
+.navi{
+cursor:default;
+background-color:black;
+width:100%;
+height:40px;
+top:100px;
+float:right;
+}
+.start{
+	
+	position:relative;
+	left:25%;
+	top:10px;
+}
+.angebote{
+position:relative;
+left:30%;
+top:10px;	
+}
+.info{
+position:relative;
+left:35%;
+top:10px;
+}
+.Berichte
+{
+position:relative;
+left:40%;
+top:10px;	
+}
+.kontakt{
+position:relative;
+left:45%;
+top:10px;
+}
+.impressum{
+	position:relative;
+	left:50%;
+	top:10px;
+}
+.twitter{
+	position: fixed;
+	bottom: 7px;
+	right:10px;
+}
+
+.facebook{
+position: fixed;
+bottom : 7px;
+right:70px;
+}
+
+.groesse{
+width :50px;
+height:50px;
+}
+
+.sozial{
+	position: fixed;
+	bottom:0;
+	right:0;
+	width: 120px;
+	height:55px;
+	background-color:#008DFF;
+	border-width: 6px;
+	border-style: solid;
+	border-color: #144A59;
+	border-right-color: lightblue;
+	border-bottom-color:lightblue;
+}
