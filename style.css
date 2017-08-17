@@ -238,3 +238,23 @@ button {
 .text{
 	cursor:default;
 }
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display:block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.anavi
+{
+position:fixed;
+float:left;
+top:160px;
+left:20px;
+
+	
+}
