@@ -17,6 +17,7 @@ h3{
 p{
 	color:white;
 	text-decoration: none;
+	font-size:20px;
 }
 a {
 	color:white;
@@ -151,7 +152,8 @@ left:25%;
 
 .content {
  max-width: 980px;
- margin: 0 auto; 
+ margin: 0 auto;
+cursor:default; 
 }
 
 @media only screen and (max-width: 1068px) {
@@ -228,6 +230,11 @@ button {
 		transition: all 1s;
 	}
 }
+.bilder
+{
+	cursor:default;
+}
 
-
-
+.text{
+	cursor:default;
+}
