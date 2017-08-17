@@ -1,12 +1,18 @@
 body {
 margin:0;
-background-color:#00C9FF
+background-color:black;
 }
 h1{
 	color:#A6FF00;
 }
 h2{	
 font-family:Bungee Inline;
+color:#A6FF00
+}
+h3{
+	font-family:Bungee Inline;
+	color:#A6FF00;
+	font-size:40px;
 }
 p{
 	color:white;
@@ -45,6 +51,10 @@ height:100px;
 .navi{
 cursor:default;
 background-color:black;
+border-color:gray;
+border-width:6px;
+border-style:double;
+border-right-style:none;
 width:100%;
 height:40px;
 top:100px;
@@ -138,4 +148,86 @@ height:40px;
 top:140px;
 left:25%;
 }
+
+.content {
+ max-width: 980px;
+ margin: 0 auto; 
+}
+
+@media only screen and (max-width: 1068px) {
+ .content {
+  max-width: 698px; 
+ }
+}
+
+@media only screen and (max-width: 735px) {
+ .content {
+   max-width: 90%;
+ }
+}
+
+.size {
+	height:150px;
+	width:200px;
+}
+ul,
+li {
+	margin: 0.1em;
+	padding: 0.1em;
+}
+
+li {
+	display: inline-block;
+	list-style-type: none;
+	width: 45%;
+}
+
+.size {
+	padding: 0;
+	margin: 0;
+height:100px;
+width:150px;
+}
+
+button {
+	padding: 0.1em;
+}
+/* Large screens */
+
+@media all and (min-width: 35em) {
+	li {
+		width: 10em;
+	}
+	button {
+		padding: 0.1em;
+		width: 10em;
+		height: 7.5em;
+		position: relative;
+	}
+	button .size {
+		border: 0;
+		position: absolute;
+		left: 0%;
+		top: 0%;
+		z-index: 1;
+		box-shadow: 0;
+		width: 10em;
+		transition: all 1s;
+	}
+	button:focus .size,
+	button:hover .size {
+		border: 2em solid #eee;
+		border-radius: 1em;
+		position: absolute;
+		left: -4%;
+		top: -4%;
+		width: 300%;
+		height:300%;
+		z-index: 5;
+		box-shadow: 1px 1px 5px #333;
+		transition: all 1s;
+	}
+}
+
+
 
