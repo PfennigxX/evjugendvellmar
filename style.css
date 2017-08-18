@@ -258,11 +258,13 @@ nav li {
 position:absolute;
 left:1%;
 width:10%;
-top:15%;	
+top:150px;	
+
 }
 .anavi a {
     display: block;
     text-decoration: none;
+	margin:10px;
 }
 
 .anavi a:hover {
