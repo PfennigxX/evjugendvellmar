@@ -28,8 +28,12 @@ text-decoration:underline; color:white;
 #one{
 	font-size:20px;
 }
+#two{
+	font-size:20px;
+	color:#A6FF00;
+}
 .mid{
-	
+margin:0;
 cursor:default;
 text-align:center;
 font-family: Rock Salt;
@@ -238,6 +242,7 @@ button {
 .text{
 	cursor:default;
 }
+
 nav ul {
 	margin: 0;
 	padding: 0;
@@ -249,12 +254,20 @@ nav li {
 	margin: 0;
 	padding: 0;
 }
-.anavi
-{
+.anavi {
 position:fixed;
-float:left;
-top:160px;
-left:20px;
-
-	
+left:1%;
+width:10%;
+top:15%;	
 }
+.anavi a {
+    display: block;
+    text-decoration: none;
+	margin:10px;
+}
+
+.anavi a:hover {
+    text-decoration:underline; color:white;
+}
+
+
