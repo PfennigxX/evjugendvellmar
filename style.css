@@ -1,277 +1,265 @@
 body {
-margin:0;
-background-color:black;
+    margin: 0;
+    background-color: black;
 }
-h1{
-	color:#A6FF00;
+h1 {
+    color: #A6FF00;
 }
-h2{	
-font-family:Bungee Inline;
-color:#A6FF00
+h2 {
+    font-family: Bungee Inline;
+    color: #A6FF00
 }
-h3{
-	font-family:Bungee Inline;
-	color:#A6FF00;
-	font-size:40px;
+h3 {
+    font-family: Bungee Inline;
+    color: #A6FF00;
+    font-size: 40px;
 }
-p{
-	color:white;
-	text-decoration: none;
-	font-size:20px;
+p {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
 }
 a {
-	color:white;
+    color: white;
 }
 a:hover {
-text-decoration:underline; color:white;
+    text-decoration: underline;
+    color: white;
 }
-#one{
-	font-size:20px;
+#one {
+    font-size: 20px;
 }
-#two{
-	font-size:20px;
-	color:#A6FF00;
+#two {
+    font-size: 20px;
+    color: #A6FF00;
 }
-.mid{
-margin:0;
-cursor:default;
-text-align:center;
-font-family: Rock Salt;
-
+.mid {
+    margin: 0;
+    cursor: default;
+    text-align: center;
+    font-family: Rock Salt;
 }
-.logo{
-	cursor:pointer;
-position: absolute;
-width:85px;
-height:85px;
-top:7.5px;	
-left:3%;
+.logo {
+    cursor: pointer;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 7.5px;
+    left: 3%;
 }
 .ueberschrieft {
-cursor:default;
-background-color:#008DFF;
-width:100%;
-height:100px;
+    cursor: default;
+    background-color: #008DFF;
+    width: 100%;
+    height: 100px;
 }
-.navi{
-cursor:default;
-background-color:black;
-border-color:gray;
-border-width:6px;
-border-style:double;
-border-right-style:none;
-width:100%;
-height:40px;
-top:100px;
-float:right;
+.navi {
+    cursor: default;
+    background-color: black;
+    border-color: gray;
+    border-width: 6px;
+    border-style: double;
+    border-right-style: none;
+    width: 100%;
+    height: 40px;
+    top: 100px;
+    float: right;
 }
-.start{
-	
-	position:relative;
-	left:25%;
-	top:10px;
+.start {
+    position: relative;
+    left: 25%;
+    top: 10px;
 }
-.angebote{
-position:relative;
-left:30%;
-top:10px;	
+.angebote {
+    position: relative;
+    left: 30%;
+    top: 10px;
 }
-.info{
-position:relative;
-left:35%;
-top:10px;
+.info {
+    position: relative;
+    left: 35%;
+    top: 10px;
 }
-.Berichte
-{
-position:relative;
-left:40%;
-top:10px;	
+.Berichte {
+    position: relative;
+    left: 40%;
+    top: 10px;
 }
-.kontakt{
-position:relative;
-left:45%;
-top:10px;
+.kontakt {
+    position: relative;
+    left: 45%;
+    top: 10px;
 }
-.impressum{
-	position:relative;
-	left:50%;
-	top:10px;
+.impressum {
+    position: relative;
+    left: 50%;
+    top: 10px;
 }
-.twitter{
-	position: fixed;
-	bottom: 7px;
-	right:10px;
+.twitter {
+    position: fixed;
+    bottom: 7px;
+    right: 10px;
 }
-
-.facebook{
-position: fixed;
-bottom : 7px;
-right:70px;
+.facebook {
+    position: fixed;
+    bottom: 7px;
+    right: 70px;
 }
-
-.groesse{
-width :50px;
-height:50px;
+.groesse {
+    width: 50px;
+    height: 50px;
 }
-
-.sozial{
-	position: fixed;
-	bottom:0;
-	right:0;
-	width: 120px;
-	height:55px;
-	background-color:#008DFF;
-	border-width: 6px;
-	border-style: solid;
-	border-color: #144A59;
-	border-right-color: lightblue;
-	border-bottom-color:lightblue;
+.sozial {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 55px;
+    background-color: #008DFF;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #144A59;
+    border-right-color: lightblue;
+    border-bottom-color: lightblue;
 }
 /*Startseite*/
-.text{
-	position: absolute;
-margin:20px;
-top:150px;
 
-	
+.text {
+    position: absolute;
+    margin: 20px;
+    top: 150px;
 }
-
-.VellmarLogo{
-float:right;
-margin:10px;
-width:150;
-height:200px;
-top:20px;
+.VellmarLogo {
+    float: right;
+    margin: 10px;
+    width: 150;
+    height: 200px;
+    top: 20px;
 }
 /*Angebote*/
+
 .angebotnavi {
-cursor:default;
-position:absolute;
-background-color:black;
-width:50%;
-height:40px;
-top:140px;
-left:25%;
+    cursor: default;
+    position: absolute;
+    background-color: black;
+    width: 50%;
+    height: 40px;
+    top: 140px;
+    left: 25%;
 }
-
 .content {
- max-width: 980px;
- margin: 0 auto;
-cursor:default; 
+    max-width: 980px;
+    margin: 0 auto;
+    cursor: default;
 }
-
 @media only screen and (max-width: 1068px) {
- .content {
-  max-width: 698px; 
- }
+    .content {
+        max-width: 698px;
+    }
 }
-
 @media only screen and (max-width: 735px) {
- .content {
-   max-width: 90%;
- }
+    .content {
+        max-width: 90%;
+    }
 }
-
 .size {
-	height:150px;
-	width:200px;
+    height: 150px;
+    width: 200px;
 }
 ul,
 li {
-	margin: 0.1em;
-	padding: 0.1em;
+    margin: 0.1em;
+    padding: 0.1em;
 }
-
 li {
-	display: inline-block;
-	list-style-type: none;
-	width: 45%;
+    display: inline-block;
+    list-style-type: none;
+    width: 45%;
 }
-
 .size {
-	padding: 0;
-	margin: 0;
-height:100px;
-width:150px;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 150px;
 }
-
 button {
-	padding: 0.1em;
+    padding: 0.1em;
 }
 /* Large screens */
 
 @media all and (min-width: 35em) {
-	li {
-		width: 10em;
-	}
-	button {
-		padding: 0.1em;
-		width: 10em;
-		height: 7.5em;
-		position: relative;
-	}
-	button .size {
-		border: 0;
-		position: absolute;
-		left: 0%;
-		top: 0%;
-		z-index: 1;
-		box-shadow: 0;
-		width: 10em;
-		transition: all 1s;
-	}
-	button:focus .size,
-	button:hover .size {
-		border: 2em solid #eee;
-		border-radius: 1em;
-		position: absolute;
-		left: -4%;
-		top: -4%;
-		width: 300%;
-		height:300%;
-		z-index: 5;
-		box-shadow: 1px 1px 5px #333;
-		transition: all 1s;
-	}
+    li {
+        width: 10em;
+    }
+    button {
+        padding: 0.1em;
+        width: 10em;
+        height: 7.5em;
+        position: relative;
+    }
+    button .size {
+        border: 0;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        z-index: 1;
+        box-shadow: 0;
+        width: 10em;
+        transition: all 1s;
+    }
+    button:focus .size,
+    button:hover .size {
+        border: 2em solid #eee;
+        border-radius: 1em;
+        position: absolute;
+        left: -4%;
+        top: -4%;
+        width: 300%;
+        height: 300%;
+        z-index: 5;
+        box-shadow: 1px 1px 5px #333;
+        transition: all 1s;
+    }
 }
-.bilder
-{
-	cursor:default;
+.bilder {
+    cursor: default;
 }
-
-.text{
-	cursor:default;
+.text {
+    cursor: default;
 }
-
 nav ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 nav li {
-	display:block;
-	list-style: none;
-	margin: 0;
-	padding: 0;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .anavi {
-position:absolute;
-left:1%;
-width:10%;
-top:150px;	
-
+    position: absolute;
+    left: 1%;
+    width: 10%;
+    top: 150px;
 }
 .anavi a {
     display: block;
     text-decoration: none;
-	margin:10px;
+    margin: 10px;
 }
-
 .anavi a:hover {
-    text-decoration:underline; color:white;
+    text-decoration: underline;
+    color: white;
 }
-
-.infotext{
-margin:15px;
-	
+.infotext {
+    margin: 15px;
+}
+.mitarbeiter > * {
+    display: inline-block;
+    padding-right: 15px;
+    vertical-align: top;
+}
+.mitarbeiter > *:last-child {
+    padding-right: 0;
 }
