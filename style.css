@@ -255,7 +255,7 @@ nav li {
 	padding: 0;
 }
 .anavi {
-position:fixed;
+position:absolute;
 left:1%;
 width:10%;
 top:15%;	
